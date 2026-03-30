@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NusantaraCraftCo</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8f6f2;
+  color: #333;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10%;
+  background: white;
+  position: sticky;
+  top: 0;
+}
+
+nav h2 {
+  color: #6b4f2a;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin-left: 20px;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to right, #6b4f2a, #2e7d32);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero p {
+  margin: 20px 0;
+}
+
+.hero button {
+  padding: 12px 25px;
+  background: gold;
+  border: none;
+  cursor: pointer;
+}
+
+/* SECTION */
+.section {
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* WHY */
+.why {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.why div {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+/* CTA */
+.cta {
+  background: #6b4f2a;
+  color: white;
+  padding: 60px;
+}
+
+/* FOOTER */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  .hero h1 {
+    font-size: 28px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h2>NusantaraCraftCo</h2>
+  <div>
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">About</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Handmade with Soul from Indonesia</h1>
+  <p>Authentic handcrafted products made by local artisans</p>
+  <button>Shop Now</button>
+</section>
+
+<!-- ABOUT -->
+<section class="section">
+  <h2>About Us</h2>
+  <p>
+    NusantaraCraftCo brings authentic handmade products from Indonesia to the world. 
+    Each item is crafted by local artisans with cultural heritage and natural beauty.
+  </p>
+</section>
+
+<!-- PRODUCTS -->
+<section class="section">
+  <h2>Featured Products</h2>
+  <div class="products">
+
+    <div class="card">
+      <img src="https://via.placeholder.com/200">
+      <h4>Handmade Bag</h4>
+      <p>$25</p>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/200">
+      <h4>Boho Necklace</h4>
+      <p>$15</p>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/200">
+      <h4>Batik Fabric</h4>
+      <p>$30</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="section">
+  <h2>Why Choose Us</h2>
+  <div class="why">
+    <div>Handmade Quality</div>
+    <div>Unique Design</div>
+    <div>Eco Friendly</div>
+    <div>Worldwide Shipping</div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <h2>Bring a piece of Indonesia to your home</h2>
+  <button>Explore Collection</button>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>NusantaraCraftCo © 2026</p>
+</footer>
+
+</body>
+</html>#80FF00
